@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Auth";
+}
+
+<main class="form-signin">
+    
+</main>
+
+<section class="section-main">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="container">
+                <h3 class="heading my-5">Please sign in</h3>
+
+                <div class="container-fluid reg">
+                    <form>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6 mx-auto">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6 mx-auto">
+                                <label for="inputPassword" class="visually-hidden">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="text-center my-2 w-100">
+                            <button class="btn btn-outline-success" type="submit">Sign in</button>
+                        </div>
+                        
+                        <a class="text-center text-dark my-5" asp-area="" asp-controller="Home" asp-action="Register">Create account</a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
